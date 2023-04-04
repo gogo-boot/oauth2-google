@@ -1,4 +1,4 @@
-module example/oauth2
+module jinwoo/oauth2
 
 go 1.17
 
