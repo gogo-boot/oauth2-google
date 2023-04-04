@@ -34,12 +34,7 @@ We'll do everything in 1 main.go file, and register 3 URL handlers:
 - /login
 - /callback
 
-### Initial handlers and OAuth2 config
-
-```
-go get golang.org/x/oauth2
-go get cloud.google.com/go/compute/metadata
-```
+### Set Environment Variables
 
 We save google client id and secret in env variables and only use os.Getenv in the code.
 
