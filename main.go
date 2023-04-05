@@ -19,7 +19,7 @@ func init() {
 		ClientID:     os.Getenv("GOOGLE_CLIENT_ID"),
 		ClientSecret: os.Getenv("GOOGLE_CLIENT_SECRET"),
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
-		Endpoint:     google.Endpoint,
+		Endpoint:     google.Endpoint, //https://accounts.google.com/o/oauth2/auth, https://oauth2.googleapis.com/token
 	}
 }
 func main() {
